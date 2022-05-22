@@ -1,0 +1,38 @@
+# Matplotlib style for scientific plotting
+# This is the base style for "SciencePlots"
+# see: https://github.com/garrettj403/SciencePlots
+
+# Set color cycle: blue, green, yellow, red, violet, gray
+axes.prop_cycle: cycler('color', ['7A76C2', 'ff6e9c98', 'f62196', '18c0c4', 'f3907e', '66E9EC'])
+
+# Set default figure size
+figure.figsize : 8, 6
+
+# Set x axis
+xtick.direction : out
+
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : out
+
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 1
+grid.linewidth : 1
+lines.linewidth : 1.
+
+# Remove legend frame
+legend.frameon : True
+legend.loc : upper right
+
+# Use serif fonts
+
+font.family : serif, cursive
+font.serif : Times
+font.size: 14
+
+
